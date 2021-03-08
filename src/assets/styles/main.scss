@@ -1,0 +1,20 @@
+//Setup
+// @import "./setup/typography";
+@import "./setup/variables";
+@import "./setup/mixins";
+
+//Basics
+@import "./basics/base";
+@import "./basics/helpers";
+@import "./basics/buttons";
+
+//Components
+@import "./components/header.scss";
+@import "./components/search.scss";
+@import "./components/game-list";
+@import "./components/game-card-preview";
+
+
+//Pages
+@import "./pages/games-app.scss"
+

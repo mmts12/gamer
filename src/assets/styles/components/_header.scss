@@ -1,0 +1,46 @@
+header{
+    font-family: Arial;
+    z-index: 5000200;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: #111;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: normal;
+    nav{
+        box-sizing: border-box;
+        vertical-align: middle;
+        width: 100%;
+        background: #111;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-family: Arial;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                margin-inline-end: 20px;
+                cursor: pointer;
+                font-family: Arial;
+                color: #fff;
+            }
+            a{
+                text-decoration: none;
+                &:hover{
+
+                }
+            }
+        }
+        .is-active{
+
+            li{
+                color: greenyellow;
+            }
+        }
+
+    }
+}
