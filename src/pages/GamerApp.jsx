@@ -14,6 +14,7 @@ export function GamerApp() {
     useEffect(() => {
     }, [])
 
+
     const searchGames = async (term) => {
         const gamesQuery = await gameService.searchGames(term)
         setGames(gamesQuery);
@@ -24,7 +25,6 @@ export function GamerApp() {
         dispatch(add(gameToAdd))
     }
     
-    console.log(games)
     return (
         <section className="games-app main-layout">
             <h1 className="main-header">חפש את המשחק האהוב עליך</h1>

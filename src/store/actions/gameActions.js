@@ -10,3 +10,15 @@ export function add(game) {
         }
     }
 }
+
+export function loadGames (games){
+    console.log(games)
+    return async dispatch => {
+        try{
+            dispatch({type:'LOAD_GAMES',games})
+        }
+        catch(err){
+            console.log('err with load games from firebase')
+        }
+    }
+}
